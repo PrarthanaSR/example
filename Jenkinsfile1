@@ -14,7 +14,7 @@ pipeline {
             steps {
                 git branch: 'main',
                     url: 'https://github.com/PrarthanaSR/example.git',
-                    credentialsId: 'Github-Token'
+                    credentialsId: 'Github-token'
 
                 echo 'Source code downloaded successfully'
             }
